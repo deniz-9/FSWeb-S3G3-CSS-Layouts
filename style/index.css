@@ -1,1 +1,81 @@
 /* CSS stillerinizi buraya girin */
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.containerClamp {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.header h1 {
+    margin-left: 50px;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: mediumspringgreen;
+    text-transform: capitalize;
+}
+
+
+
+.menu ul li:hover {
+    background-color: antiquewhite;
+}
+
+.menu ul li a {
+    color: azure;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px auto;
+}
+
+.about__content {
+    margin-top: auto;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    min-width: 300px;
+    max-width: 400px;
+
+}
+
+.projects {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projects__item {
+    margin-bottom: 30px;
+}
+
+.project__image {
+    width: 190px;
+
+}
+
+.footer {
+    background-color: mediumspringgreen;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.footer__cta {
+    display: inline-block;
+    text-align: center;
+}
